@@ -1,0 +1,199 @@
+/* southamerica-style.css */
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: #fdf9f4; /* light parchment-like background */
+  color: #2e2e2e;
+  padding: 30px;
+}
+
+/* Header */
+header h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  background: linear-gradient(to right, #d72638, #fbb13c, #21b573); /* red, gold, green */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Section Title */
+.region-section h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #c44124;
+  text-align: center;
+  border-bottom: 2px solid #c44124;
+  padding-bottom: 10px;
+}
+
+/* Each article in a "card" layout */
+article {
+  background-color: #ffffff;
+  border-left: 6px solid #fbb13c;
+  padding: 20px 25px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* Article headings */
+article h3 {
+  color: #c44124;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.7;
+  font-size: 17px;
+  color: #333;
+}
+
+/* Lists */
+ul {
+  margin-left: 20px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* Blockquote styling for "True Colors" message */
+.true-colors-message blockquote {
+  background-color: #fef6e4;
+  border-left: 5px solid #21b573;
+  padding: 18px 20px;
+  margin-top: 20px;
+  font-style: italic;
+  color: #3a3a3a;
+  border-radius: 6px;
+}
+body {
+    background: linear-gradient(to bottom right, #f0f4f8, #e0f7fa);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #e91e63;
+}
+
+header h1 {
+    font-size: 28px;
+    margin: 0;
+    color: #333;
+}
+
+.region-section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.region-section h2 {
+    font-size: 26px;
+    color: #d81b60;
+    border-bottom: 2px solid #d81b60;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.region-section h3 {
+    font-size: 20px;
+    color: #00796b;
+    margin-top: 25px;
+}
+
+.region-section ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.region-section li {
+    margin-bottom: 10px;
+}
+
+.true-colors-message {
+    background: linear-gradient(to right, #fce4ec, #f3e5f5);
+    border-left: 6px solid #8e24aa;
+    padding: 15px 25px;
+    margin-top: 40px;
+    border-radius: 10px;
+    font-style: italic;
+    color: #4a148c;
+}
+
+footer.site-footer {
+    text-align: center;
+    background-color: #fafafa;
+    padding: 30px;
+    margin-top: 40px;
+    border-top: 3px solid #d81b60;
+}
+
+footer i {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #d81b60;
+    transition: color 0.3s;
+}
+
+footer i:hover {
+    color: #8e24aa;
+}
+
+
+/* Footer */
+.site-footer {
+  background-color: #2e2e2e;
+  color: #fdf9f4;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.site-footer p span {
+  background: linear-gradient(to right, #d72638, #fbb13c, #21b573);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.site-footer h1 {
+  font-size: 18px;
+  margin: 20px 0 10px;
+}
+
+.site-footer a {
+  color: #fdf9f4;
+  margin: 0 10px;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.site-footer a:hover {
+  color: #fbb13c;
+}

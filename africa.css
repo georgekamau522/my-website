@@ -1,0 +1,396 @@
+ /* Kenya Section Styling */
+ .kenya-section {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    margin: 2rem 0;
+    border-left: 8px solid #6a1b9a; /* Purple accent for consistency */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .kenya-section h2 {
+    color: #6a1b9a;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5rem;
+  }
+  
+  .kenya-section h3 {
+    color: #333;
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+  }
+  
+  .kenya-section p {
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  .kenya-section ul {
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .kenya-section li {
+    margin-bottom: 0.5rem;
+  }
+  
+  
+ .fullscreen-video {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Covers half of the screen height */
+    overflow: hidden;
+  }
+  
+  .fullscreen-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  .resource-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 1em;
+  }
+  
+  .resource-card {
+    background-color: hwb(263 2% 2% / 0.442); /* light grey */
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+  }
+  
+  .resource-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .resource-card h3 {
+    color: #7c3aed; /* purple */
+    margin-bottom: 8px;
+  }
+  
+  .resource-card p {
+    color: #374151; /* dark gray */
+    font-size: 0.95em;
+    margin-bottom: 12px;
+  }
+  
+  .resource-card a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #7c3aed;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+  
+  .resource-card a:hover {
+    background-color: #5b21b6;
+  }
+
+  
+  .region-section {
+    background-color: #fdf4ff;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 900px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  }
+  
+  .region-section h2 {
+    font-size: 2rem;
+    color: #8b5cf6;
+    margin-bottom: 1rem;
+  }
+  
+  .region-section details {
+    margin-top: 1rem;
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 1rem;
+  }
+  
+  .region-section summary {
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+    color: #4f46e5;
+    margin-bottom: 0.5rem;
+  }
+  
+  .region-section ul {
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+  }
+  
+  .region-section a {
+    color: #7c3aed;
+    text-decoration: underline;
+  }
+  
+  .region-section a:hover {
+    color: #5b21b6;
+  }
+
+
+ .country-section {
+    padding: 2rem 1.5rem;
+    margin: 3rem auto;
+    max-width: 960px;
+    background: #ffffff;
+    border-left: 6px solid #6a0dad;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .country-section h1 {
+    font-size: 2rem;
+    color: #4b0082;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5rem;
+  }
+  
+  .country-section h2 {
+    font-size: 1.4rem;
+    color: #333;
+    margin-top: 2rem;
+  }
+  
+  .country-section ul {
+    padding-left: 1.5rem;
+    list-style: disc;
+    color: #444;
+  }
+  
+  .country-section p {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin: 1rem 0;
+    color: #444;
+  }
+  
+  .country-section blockquote {
+    background-color: #f4ebff;
+    border-left: 4px solid #6a0dad;
+    padding: 1rem 1.5rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+    color: #5a005a;
+    border-radius: 8px;
+  }
+  
+  .country-section a {
+    color: #6a0dad;
+    text-decoration: underline;
+  }
+  
+  .country-section a:hover {
+    color: #9b30ff;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 768px) {
+    .country-section {
+      padding: 1.5rem 1rem;
+    }
+  
+    .country-section h1 {
+      font-size: 1.5rem;
+    }
+  
+    .country-section h2 {
+      font-size: 1.2rem;
+    }
+  }
+  /* Kenya Section Styling */
+.kenya-section {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    margin: 2rem 0;
+    border-left: 8px solid #6a1b9a; /* Purple accent for consistency */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .kenya-section h2 {
+    color: #6a1b9a;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5rem;
+  }
+  
+  .kenya-section h3 {
+    color: #333;
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+  }
+  
+  .kenya-section p {
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  .kenya-section ul {
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .kenya-section li {
+    margin-bottom: 0.5rem;
+  }
+ /* South(ern) African Region Styling */
+ .south-african-region {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    margin: 2.5rem 0;
+    border-left: 8px solid #00796b; /* Teal accent for Southern Africa */
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08);
+  }
+  
+  .south-african-region h2 {
+    color: #00796b;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.5rem;
+  }
+  
+  .south-african-region h3 {
+    color: #2c3e50;
+    font-size: 1.5rem;
+    margin-top: 1.8rem;
+  }
+  
+  .south-african-region p {
+    color: #444;
+    line-height: 1.65;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .south-african-region ul {
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .south-african-region li {
+    margin-bottom: 0.6rem;
+  }
+  /* Container for the whole section */
+#west-africa-lgbt {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+  font-family: 'Segoe UI', sans-serif;
+  color: #1e1e1e;
+  background-color: #fafafa;
+}
+
+/* Main title */
+#west-africa-lgbt h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #4a148c; /* deep violet */
+}
+
+/* Country section box */
+.country-section {
+  background-color: #ffffff;
+  border-left: 8px solid #ba68c8; /* lavender border */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  transition: 0.3s;
+}
+
+.country-section:hover {
+  box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+}
+
+/* Subheadings */
+.country-section h2 {
+  font-size: 1.75rem;
+  color: #6a1b9a;
+  margin-bottom: 1rem;
+}
+
+.country-section h3 {
+  font-size: 1.25rem;
+  color: #7b1fa2;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Text and lists */
+.country-section p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.country-section ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.country-section ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* Emphasis and strong */
+strong {
+  color: #4a148c;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  #west-africa-lgbt {
+    padding: 1rem;
+  }
+
+  #west-africa-lgbt h1 {
+    font-size: 2rem;
+  }
+
+  .country-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .country-section h3 {
+    font-size: 1.1rem;
+  }
+}
+ .social-icons a {
+    font-size: 1.6rem;
+    color: #6a1b9a;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #ba68c8;
+    transform: scale(1.2);
+  }
+  .social-icons {
+    width: 128px;
+    height: 80px;
+  }
+  
+   

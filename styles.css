@@ -1,0 +1,397 @@
+.site-header {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo-link {
+  margin-right: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.site-logo {
+  height: 32px;
+  width: 10px;
+  transition: transform 0.3s ease;
+}
+
+.site-logo:hover {
+  transform: scale(1.1);
+}
+
+.site-nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.site-nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.site-nav a:hover {
+  color: #bf1363;
+}
+
+
+/* ====== Global Styles ====== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  color: #222;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* === Container and Layout === */
+
+.main {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.background::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+  opacity: 0.05;
+  border-radius: 12px;
+  pointer-events: none;
+  z-index: -1;
+}
+.background {
+  position: relative;
+  overflow: hidden;
+}
+
+.content p {
+  font-size: 1.15rem;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+.content ul {
+  padding-left: 20px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.content ul li {
+  margin-bottom: 8px;
+}
+
+/* === Header === */
+
+header {
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 6px;
+  color: #e91e63;
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header span.rainbow-text {
+  font-weight: bold;
+  font-size: 32px;
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* === Navigation Bar === */
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+
+.navbar a {
+  color: #e91e63;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar a:hover,
+.navbar a:focus {
+  background-color: #e91e63;
+  color: #fff;
+  outline: none;
+}
+
+/* === Horizontal Rules === */
+
+hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  margin: 12px 0 20px 0;
+  border-radius: 20px;
+}
+
+/* === Lists for Continents (Home page) === */
+
+ul.continents {
+  max-width: 1100px;
+  margin: 0 auto 40px auto;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+}
+
+ul.continents li a {
+  background-color: #f7f7f7;
+  color: #e91e63;
+  padding: 12px 22px;
+  border-radius: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 2px 6px rgb(233 30 99 / 0.3);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+ul.continents li a:hover,
+ul.continents li a:focus {
+  background-color: #e91e63;
+  color: white;
+  outline: none;
+}
+
+/* === Main Content Sections === */
+
+main section {
+  max-width: 900px;
+  margin: 0 auto 60px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+main section h2 {
+  font-size: 2rem;
+  color: #e91e63;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+main section p {
+  font-size: 1.15rem;
+  color: #333;
+}
+
+/* === Footer === */
+
+.site-footer {
+  background-color: #fafafa;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: auto;
+  font-size: 0.9rem;
+  color: #666;
+  box-shadow: inset 0 1px 0 #ddd;
+}
+
+.site-footer p {
+  margin: 0 0 15px 0;
+}
+
+.site-footer span.rainbow-text {
+  font-weight: bold;
+  font-size: 32px;
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* Footer social icon */
+
+.site-footer a {
+  color: #e91e63;
+  font-size: 1.6rem;
+  margin: 0 12px;
+  transition: color 0.3s ease;
+}
+
+.site-footer a:hover,
+.site-footer a:focus {
+  color: #c2185b;
+  outline: none;
+}
+
+/* === Upload Page Slider === */
+
+.slider {
+  max-width: 1100px;
+  margin: 30px auto 50px auto;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.slides {
+  display: flex;
+  width: 100%;
+  animation: slideAnimation 60s linear infinite;
+}
+
+.slides img {
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 15px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.slides img:hover {
+  transform: scale(1.05);
+}
+
+@keyframes slideAnimation {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* === Background Content (shared) === */
+
+.background .content {
+  max-width: 900px;
+  margin: 0 auto 40px auto;
+  font-size: 1.15rem;
+  color: #444;
+}
+
+/* === About Page Specific Content === */
+
+h1 {
+  text-align: center;
+  color: #e91e63;
+  margin-bottom: 20px;
+  font-size: 2.8rem;
+}
+
+.about-text p {
+  max-width: 850px;
+  margin: 0 auto 20px auto;
+  font-size: 1.15rem;
+  color: #333;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* === Lists styling shared === */
+
+ul {
+  list-style-type: disc;
+  padding-left: 40px;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* === Responsive === */
+
+@media (max-width: 768px) {
+
+  .navbar {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .slides img {
+    max-width: 150px;
+    margin-right: 8px;
+  }
+
+  main section,
+  .background .content,
+  .about-text p {
+    padding: 0 15px;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  ul.continents {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  ul.continents li a {
+    width: 70vw;
+    text-align: center;
+  }
+}
+ .background ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2em;
+  display: inline-block;
+  text-align: left;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.background ul li {
+  margin-bottom: 0.6em;
+  padding-left: 1.4em;
+  position: relative;
+}
+
+.background ul li::before {
+  content: "🌈";
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+

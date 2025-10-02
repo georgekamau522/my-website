@@ -1,0 +1,41 @@
+.region-section {
+  padding: 2rem;
+  margin: 2rem auto;
+  background: linear-gradient(to right, #f8f9fa, #e8f0fe);
+  border-radius: 16px;
+  max-width: 900px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.region-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-bottom: 1rem;
+}
+
+.region-intro {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.region-section h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-top: 1.5rem;
+}
+
+.region-section p, .region-section li {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.region-section ul {
+  margin-left: 1.5rem;
+  list-style-type: disc;
+}
